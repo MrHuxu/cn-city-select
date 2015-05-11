@@ -9,7 +9,7 @@ This is a plugin to make it easy to add a China region selector into your Angula
 Install this plugin by using bower.
 
 	# enter your asset directory
-	bower install angular angular-city-select --save
+	bower install angular cn-city-select --save
 
 ## Usage
 

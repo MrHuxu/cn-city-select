@@ -1,5 +1,6 @@
 {
   "name": "cn-city-select",
+  "main": "./cn-city-select.js",
   "version": "0.0.1",
   "homepage": "https://github.com/MrHuxu/angular-city-select",
   "authors": [
