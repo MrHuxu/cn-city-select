@@ -16,9 +16,9 @@ Install this plugin by using bower.
 1. First of all you should load Angularjs in your page, and then load this plugin.
 	
 		<!-- place this code into your page -->
-		<script type="text/javascript" src='/.../angular.js'></script>
-		<script type="text/javascript" src='/.../china_city.js'></script>
-		<script type='text/javascript' src='/.../yourJS.js'></script>
+		<script type="text/javascript" src='/xxx/angular.min.js'></script>
+		<script type="text/javascript" src='/xxx/cn-city-select.min.js'></script>
+		<script type='text/javascript' src='/xxx/yourJS.js'></script>
 
 2. Then create your own Angular module, controller and city-select div.
 
@@ -29,7 +29,7 @@ Install this plugin by using bower.
 3. Import the module into your module, and then the plugin works!
 
 		// place this code into yourJS.js
-		angular.module('yourModule', ['ngCitySelect'])
+		angular.module('yourModule', ['cnCitySelect'])
 
 4. There are two attributes belong to directive.
 	
@@ -54,7 +54,7 @@ This is a small sample of this plugin.
 	  </div>
 	</body>
 	<script src='./angular.min.js'></script>
-	<script src='./angular-city-select.min.js'></script>
+	<script src='./cn-city-select.min.js'></script>
 	<script>
 	  angular.module('testModule', ['ngCitySelect']).controller('testCtrl', function ($scope) {});
 	</script>
