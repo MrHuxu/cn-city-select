@@ -1,4 +1,4 @@
-# AngularCitySelect
+# ChinaCitySelect
 
 ![test](https://raw.githubusercontent.com/MrHuxu/img-repo/master/city-select/test.gif)
 
@@ -56,7 +56,7 @@ This is a small sample of this plugin.
 	<script src='./angular.min.js'></script>
 	<script src='./cn-city-select.min.js'></script>
 	<script>
-	  angular.module('testModule', ['ngCitySelect']).controller('testCtrl', function ($scope) {});
+	  angular.module('testModule', ['cnCitySelect']).controller('testCtrl', function ($scope) {});
 	</script>
 	</html>
 	
