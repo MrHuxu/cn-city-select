@@ -1,0 +1,19 @@
+<html>
+<meta charset="UTF-8">
+<style>
+  .test-class {margin: 30px 0 0 30px; font-size: 30px}
+</style>
+<body>
+  <div ng-app='testModule'>
+    <div ng-controller='testCtrl'>
+      <div select-result='result' select-class='test-class' city-select></div>
+      <p>{{result}}</p>
+    </div>
+  </div>
+</body>
+<script src="../../angular/angular.js"></script>
+<script src="../cn-city-select.min.js"></script>
+<script>
+  angular.module('testModule', ['cnCitySelect']).controller('testCtrl', function ($scope) {});
+</script>
+</html>
